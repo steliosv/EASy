@@ -1,0 +1,2 @@
+START CLIENT localhost [127.0.0.1] (SeedLink|Client) @ 2018-12-17 20:08:31 (connected 2018-12-17 20:07:58) TX
+END CLIENT localhost [127.0.0.1] total TX bytes: 0

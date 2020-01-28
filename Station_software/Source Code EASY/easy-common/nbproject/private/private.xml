@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/stevo/Dropbox/PhD-EASY/easy-processing/easy-common/src/org/sv/easy/gui/Easyplot.java</file>
+            <file>file:/home/stevo/Dropbox/PhD-EASY/easy-processing/easy-common/src/org/sv/easy/cli/EasyMain.java</file>
+            <file>file:/home/stevo/Dropbox/PhD-EASY/easy-processing/easy-common/src/org/sv/easy/config/NodeConfig.java</file>
+            <file>file:/home/stevo/Dropbox/PhD-EASY/easy-processing/easy-common/etc/easy/nodesettings.conf</file>
+            <file>file:/home/stevo/Dropbox/PhD-EASY/easy-processing/easy-common/src/org/sv/easy/engine/EasyEngineImpl.java</file>
+            <file>file:/home/stevo/Dropbox/PhD-EASY/easy-processing/easy-common/src/org/sv/easy/engine/KalmanFilter.java</file>
+            <file>file:/home/stevo/Dropbox/PhD-EASY/easy-processing/easy-common/src/org/sv/easy/common/XBeeIO.java</file>
+        </group>
+    </open-files>
+</project-private>

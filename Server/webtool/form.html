@@ -1,0 +1,465 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>E.A.SY node settings</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="E.A.SY, node settings" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!---fonts-->
+    <link href='//fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <!---fonts-->
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="./easylogosm.png" alt="">
+                </a>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Node Configuration tool</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div class="clearfix"></div>
+    <div class="spacer"></div>
+    <div class="container">
+        <form action="getform.php" type="get">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channel_0:</label>
+                    <select name="Channel_0">
+                        <option value="HHE">HHE</option>
+                        <option value="SHE">SHE</option>
+                        <option value="BHE">BHE</option>
+                        <option value="LHE">LHE</option>
+                        <option value="HHN">HHN</option>
+                        <option value="SHN">SHN</option>
+                        <option value="BHN">BHN</option>
+                        <option value="LHN">LHN</option>
+                        <option value="HHZ">HHZ</option>
+                        <option value="SHZ">SHZ</option>
+                        <option value="BHZ">BHZ</option>
+                        <option value="LHZ">LHZ</option>
+                        <option value="HNE">HNE</option>
+                        <option value="SNE">SNE</option>
+                        <option value="BNE">BNE</option>
+                        <option value="LNE">LNE</option>
+                        <option value="HNN">HNN</option>
+                        <option value="SNN">SNN</option>
+                        <option value="BNN">BNN</option>
+                        <option value="LNN">LNN</option>
+                        <option value="HNZ">HNZ</option>
+                        <option value="SNZ">SNZ</option>
+                        <option value="BNZ">BNZ</option>
+                        <option value="LNZ">LNZ</option>
+                        <option value="volt">volt</option>
+                        <option value="temp">temp</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label>NetworkCode:</label>
+                    <input type="text" maxlength="2" name="NetworkCode">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channel_1:</label>
+                    <select name="Channel_1">
+                        <option value="HHE">HHE</option>
+                        <option value="SHE">SHE</option>
+                        <option value="BHE">BHE</option>
+                        <option value="LHE">LHE</option>
+                        <option value="HHN">HHN</option>
+                        <option value="SHN">SHN</option>
+                        <option value="BHN">BHN</option>
+                        <option value="LHN">LHN</option>
+                        <option value="HHZ">HHZ</option>
+                        <option value="SHZ">SHZ</option>
+                        <option value="BHZ">BHZ</option>
+                        <option value="LHZ">LHZ</option>
+                        <option value="HNE">HNE</option>
+                        <option value="SNE">SNE</option>
+                        <option value="BNE">BNE</option>
+                        <option value="LNE">LNE</option>
+                        <option value="HNN">HNN</option>
+                        <option value="SNN">SNN</option>
+                        <option value="BNN">BNN</option>
+                        <option value="LNN">LNN</option>
+                        <option value="HNZ">HNZ</option>
+                        <option value="SNZ">SNZ</option>
+                        <option value="BNZ">BNZ</option>
+                        <option value="LNZ">LNZ</option>
+                        <option value="volt">volt</option>
+                        <option value="temp">temp</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>StationID: </label>
+                    <input type="text" maxlength="5" name="StationID">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channel_2:</label>
+                    <select name="Channel_2">
+                        <option value="HHE">HHE</option>
+                        <option value="SHE">SHE</option>
+                        <option value="BHE">BHE</option>
+                        <option value="LHE">LHE</option>
+                        <option value="HHN">HHN</option>
+                        <option value="SHN">SHN</option>
+                        <option value="BHN">BHN</option>
+                        <option value="LHN">LHN</option>
+                        <option value="HHZ">HHZ</option>
+                        <option value="SHZ">SHZ</option>
+                        <option value="BHZ">BHZ</option>
+                        <option value="LHZ">LHZ</option>
+                        <option value="HNE">HNE</option>
+                        <option value="SNE">SNE</option>
+                        <option value="BNE">BNE</option>
+                        <option value="LNE">LNE</option>
+                        <option value="HNN">HNN</option>
+                        <option value="SNN">SNN</option>
+                        <option value="BNN">BNN</option>
+                        <option value="LNN">LNN</option>
+                        <option value="HNZ">HNZ</option>
+                        <option value="SNZ">SNZ</option>
+                        <option value="BNZ">BNZ</option>
+                        <option value="LNZ">LNZ</option>
+                        <option value="volt">volt</option>
+                        <option value="temp">temp</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>LocationID: </label>
+                    <input type="text" maxlength="2" name="LocationID"> </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channel_3:</label>
+                    <select name="Channel_3">
+                        <option value="HHE">HHE</option>
+                        <option value="SHE">SHE</option>
+                        <option value="BHE">BHE</option>
+                        <option value="LHE">LHE</option>
+                        <option value="HHN">HHN</option>
+                        <option value="SHN">SHN</option>
+                        <option value="BHN">BHN</option>
+                        <option value="LHN">LHN</option>
+                        <option value="HHZ">HHZ</option>
+                        <option value="SHZ">SHZ</option>
+                        <option value="BHZ">BHZ</option>
+                        <option value="LHZ">LHZ</option>
+                        <option value="HNE">HNE</option>
+                        <option value="SNE">SNE</option>
+                        <option value="BNE">BNE</option>
+                        <option value="LNE">LNE</option>
+                        <option value="HNN">HNN</option>
+                        <option value="SNN">SNN</option>
+                        <option value="BNN">BNN</option>
+                        <option value="LNN">LNN</option>
+                        <option value="HNZ">HNZ</option>
+                        <option value="SNZ">SNZ</option>
+                        <option value="BNZ">BNZ</option>
+                        <option value="LNZ">LNZ</option>
+                        <option value="volt">volt</option>
+                        <option value="temp">temp</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>Latitude: </label>
+                    <input type="text" name="Latitude"> </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channel_4:</label>
+                    <select name="Channel_4">
+                        <option value="HHE">HHE</option>
+                        <option value="SHE">SHE</option>
+                        <option value="BHE">BHE</option>
+                        <option value="LHE">LHE</option>
+                        <option value="HHN">HHN</option>
+                        <option value="SHN">SHN</option>
+                        <option value="BHN">BHN</option>
+                        <option value="LHN">LHN</option>
+                        <option value="HHZ">HHZ</option>
+                        <option value="SHZ">SHZ</option>
+                        <option value="BHZ">BHZ</option>
+                        <option value="LHZ">LHZ</option>
+                        <option value="HNE">HNE</option>
+                        <option value="SNE">SNE</option>
+                        <option value="BNE">BNE</option>
+                        <option value="LNE">LNE</option>
+                        <option value="HNN">HNN</option>
+                        <option value="SNN">SNN</option>
+                        <option value="BNN">BNN</option>
+                        <option value="LNN">LNN</option>
+                        <option value="HNZ">HNZ</option>
+                        <option value="SNZ">SNZ</option>
+                        <option value="BNZ">BNZ</option>
+                        <option value="LNZ">LNZ</option>
+                        <option value="volt">volt</option>
+                        <option value="temp">temp</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>Longitude: </label>
+                    <input type="text" name="Longitude"> </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channel_5:</label>
+                    <select name="Channel_5">
+                        <option value="HHE">HHE</option>
+                        <option value="SHE">SHE</option>
+                        <option value="BHE">BHE</option>
+                        <option value="LHE">LHE</option>
+                        <option value="HHN">HHN</option>
+                        <option value="SHN">SHN</option>
+                        <option value="BHN">BHN</option>
+                        <option value="LHN">LHN</option>
+                        <option value="HHZ">HHZ</option>
+                        <option value="SHZ">SHZ</option>
+                        <option value="BHZ">BHZ</option>
+                        <option value="LHZ">LHZ</option>
+                        <option value="HNE">HNE</option>
+                        <option value="SNE">SNE</option>
+                        <option value="BNE">BNE</option>
+                        <option value="LNE">LNE</option>
+                        <option value="HNN">HNN</option>
+                        <option value="SNN">SNN</option>
+                        <option value="BNN">BNN</option>
+                        <option value="LNN">LNN</option>
+                        <option value="HNZ">HNZ</option>
+                        <option value="SNZ">SNZ</option>
+                        <option value="BNZ">BNZ</option>
+                        <option value="LNZ">LNZ</option>
+                        <option value="volt">volt</option>
+                        <option value="temp">temp</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>HPForder: </label>
+                    <input type="text" name="HPForder">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channel_6:</label>
+                    <select name="Channel_6">
+                        <option value="HHE">HHE</option>
+                        <option value="SHE">SHE</option>
+                        <option value="BHE">BHE</option>
+                        <option value="LHE">LHE</option>
+                        <option value="HHN">HHN</option>
+                        <option value="SHN">SHN</option>
+                        <option value="BHN">BHN</option>
+                        <option value="LHN">LHN</option>
+                        <option value="HHZ">HHZ</option>
+                        <option value="SHZ">SHZ</option>
+                        <option value="BHZ">BHZ</option>
+                        <option value="LHZ">LHZ</option>
+                        <option value="HNE">HNE</option>
+                        <option value="SNE">SNE</option>
+                        <option value="BNE">BNE</option>
+                        <option value="LNE">LNE</option>
+                        <option value="HNN">HNN</option>
+                        <option value="SNN">SNN</option>
+                        <option value="BNN">BNN</option>
+                        <option value="LNN">LNN</option>
+                        <option value="HNZ">HNZ</option>
+                        <option value="SNZ">SNZ</option>
+                        <option value="BNZ">BNZ</option>
+                        <option value="LNZ">LNZ</option>
+                        <option value="volt">volt</option>
+                        <option value="temp">temp</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>LPForder: </label>
+                    <input type="text" name="LPForder">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channel_7:</label>
+                    <select name="Channel_7">
+                        <option value="HHE">HHE</option>
+                        <option value="SHE">SHE</option>
+                        <option value="BHE">BHE</option>
+                        <option value="LHE">LHE</option>
+                        <option value="HHN">HHN</option>
+                        <option value="SHN">SHN</option>
+                        <option value="BHN">BHN</option>
+                        <option value="LHN">LHN</option>
+                        <option value="HHZ">HHZ</option>
+                        <option value="SHZ">SHZ</option>
+                        <option value="BHZ">BHZ</option>
+                        <option value="LHZ">LHZ</option>
+                        <option value="HNE">HNE</option>
+                        <option value="SNE">SNE</option>
+                        <option value="BNE">BNE</option>
+                        <option value="LNE">LNE</option>
+                        <option value="HNN">HNN</option>
+                        <option value="SNN">SNN</option>
+                        <option value="BNN">BNN</option>
+                        <option value="LNN">LNN</option>
+                        <option value="HNZ">HNZ</option>
+                        <option value="SNZ">SNZ</option>
+                        <option value="BNZ">BNZ</option>
+                        <option value="LNZ">LNZ</option>
+                        <option value="volt">volt</option>
+                        <option value="temp">temp</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>LPFFc: </label>
+                    <input type="text" name="LPFFc"> </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Sample_rate:</label>
+                    <select name="Sample_rate">
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>DFOrdL: </label>
+                    <input type="text" name="DFOrdL">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Location:</label>
+                    <select name="Location">
+                        <option value="U">U</option>
+                        <option value="R">R</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>DFFcL: </label>
+                    <input type="text" name="DFFcL">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>GPIO:</label>
+                    <select name="GPIO">
+                        <option value="ON">ON</option>
+                        <option value="OFF">OFF</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>DFFcH: </label>
+                    <input type="text" name="DFFcH"> </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>Channels_to_write:</label>
+                    <select name="Channels_to_write">
+                        <option value="up">up</option>
+                        <option value="ew">ew</option>
+                        <option value="ns">ns</option>
+                        <option value="upgeo">upgeo</option>
+                        <option value="all">all</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>TLPFFC: </label>
+                    <input type="text" name="TLPFFC">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>DIGILOG:</label>
+                    <select name="DIGILOG">
+                        <option value="ON">ON</option>
+                        <option value="OFF">OFF</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>THPFFC: </label>
+                    <input type="text" name="THPFFC">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <label>RS:</label>
+                    <select name="RS">
+                        <option value="ON">ON</option>
+                        <option value="OFF">OFF</option>
+                    </select>
+                    <br>
+                    <label>KF:</label>
+                    <select name="KF">
+                        <option value="ON">ON</option>
+                        <option value="OFF">OFF</option>
+                    </select>
+                    <br>
+                    <label>XBEEID:</label>
+                    <select name="XBEEID">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label>ACCFC:</label>
+                    <input type="text" name="ACCFC">
+                    <br>
+                    <label>DFOrdH: </label>
+                    <input type="text" name="DFOrdH">
+                    <br>
+                    <label>ME: </label>
+                    <input type="text" name="ME">
+                    <br>
+                    <label>EE: </label>
+                    <input type="text" name="EE">
+                    <br>
+                    <label>PN: </label>
+                    <input type="text" name="PN">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+
+                </div>
+            </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4"></div>
+        <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
+            <input class="button btn-warning" type="submit" value="Get Configuration">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4"></div>
+    </div>
+    </form>
+    <div class="clearfix"></div>
+    </div>
+    <div class="c"></div>
+</body>
+</html>

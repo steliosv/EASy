@@ -1,0 +1,13 @@
+body {background-color: #E0E0E0;padding-top: 70px;}
+.navbar-fixed-top .navbar-brand {padding: 10px;}
+.navbar-inverse .navbar-nav > li > a{font-weight: 600;font-size: 26px;}
+.spacer{padding: 100px;}
+.navbar-fixed-top .navbar-brand {float: none!important;text-align: center!important;}
+.navbar-fixed-top .nav{padding: 0!important;}
+.navbar-header{text-align: center;float: none!important;}
+.navbar-nav{text-align: center;float: none!important;}
+.navbar-nav > li{float: none;}
+form{text-align: center;}
+label {padding-right: 10px;min-width:100px;}
+.btn-warning{background: #FCEE21;color: #222222;border:1px solid #222222;padding:20px;}
+.btn-warning:hover{background: #222222;color: #FCEE21;border:1px solid #FCEE21;}

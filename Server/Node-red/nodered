@@ -1,0 +1,47 @@
+#! /bin/bash
+
+if [[ $EUID -ne 0 ]]; then
+  echo "This script must be run as root"
+  exit 1
+fi
+
+# The log is written to here - please make sure your user has write permissions.
+LOG=/var/log/node-red.log
+
+#Load up node red when called
+case "$1" in
+
+start)
+    if pgrep ^node-red$ > /dev/null
+    then
+        echo "Node-RED already running."
+    else
+        echo "Starting Node-Red.."
+        touch $LOG
+        chown $USER:$USER $LOG
+        echo "" >> $LOG
+        echo "Node-RED service start: "$(date) >> $LOG
+        sudo node-red >> $LOG &
+        echo "Logging to "$LOG
+    fi
+;;
+
+stop)
+    echo "Stopping Node-Red.."
+    pkill -SIGINT ^node-red$
+    sleep 2
+    echo "" >> $LOG
+    echo "Node-RED service stop: "$(date) >> $LOG
+;;
+
+restart)
+        echo "Restarting Node-Red.."
+        $0 stop
+        sleep 2
+        $0 start
+        echo "Restarted."
+;;
+*)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+esac

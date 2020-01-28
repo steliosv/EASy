@@ -1,0 +1,26 @@
+========================
+BUILD OUTPUT DESCRIPTION
+========================
+please make sure that you have changed the default sender, recipient and sender's password
+on both files mentioned below:
+-- src/org/sv/easy/cli/EasyMain.java
+    cli/EasyMain.java:529:        mailer.setSender("email@example.com");
+    cli/EasyMain.java:530:        mailer.setRecipient("email2@example.com");
+    cli/EasyMain.java:531:        mailer.setPassword("123test");
+
+-- src/org/sv/easy/gui/Easyplot.java
+    gui/Easyplot.java:248:        recipaddr.setText("email2@example.com");
+    gui/Easyplot.java:249:        sendaddr.setText("email@example.com");
+    gui/Easyplot.java:847:        .setText("email@example.com");
+    gui/Easyplot.java:853:        .setText("email@example.com");
+    gui/Easyplot.java:250:        sendpasswd.setText("123test");
+    gui/Easyplot.java:860:        .setText("123test");
+
+please make sure that you have changed the default server's IP
+-- src/org/sv/easy/gui/Easyplot.java
+    gui/Easyplot.java:841:        .setText("8.8.8.8");
+
+-- scripts/easyservice.sh
+    easyservice.sh:28:            ip="8.8.8.8" #place your server's IP here
+
+after that you can build the project properly.
